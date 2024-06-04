@@ -1,0 +1,209 @@
+html {
+  background-color: #032129;
+  background: linear-gradient(to right, #032129c9, #032129), url(http://pre06.deviantart.net/a349/th/pre/i/2015/117/a/2/goku_super_saiyan_god_super_saiyan_dbxv_by_armorkingtv21-d8rc8fv.png) 0% 100% no-repeat;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // align-items: center;
+  // justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.li{
+  list-style-type: none;
+
+}
+
+.buttonCounter {
+        padding: 10px;
+        display: block;
+        &__container {
+          background: transparent;
+          border: 4px solid #09D3AC;
+          color: #09D3AC;
+          cursor: pointer;
+          padding: 1rem;
+          margin: 0.5rem;
+          font-size: 1rem;
+          min-width: 7rem;
+          animation: 10s rotateAnimation infinite cubic-bezier(0.6, -0.28, 0.74, 0.05);
+          &--small {
+            padding: 5px;
+          }
+        }
+        //&--background-sec {
+        //  background-color: yellow;
+        //}
+      }
+      @keyframes rotateAnimation {
+        0% {
+          transform: rotate(0deg);
+          color: #09D3AC;
+          border-color: #09D3AC;
+        }
+        50% {
+          transform: rotate(360deg);
+          color: #ffffff;
+          border-color: #ffffff;
+        }
+        100% {
+          transform: rotate(0deg);
+          color: #09D3AC;
+          border-color: #09D3AC;
+        }
+      }
+      .imag{
+        width: 320px;
+        height: 400px;
+      }
+      .figure{
+        width: 320px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 4px solid #09D3AC;
+        border-radius: 5%;
+        box-shadow: 0 4px 8px 0 rgba(214, 221, 219, 0.562), 0 8px 16px 0 rgba(244, 247, 246, 0.774);
+        color: #09D3AC;
+        cursor: pointer;
+      }
+      .figure:hover{
+        animation: 2s rotFig infinite;
+        @keyframes rotFig {
+          100%{
+        transform: rotateY(360deg);
+          }
+      }
+    }
+      .h3{
+        width: 400px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 4px solid #09D3AC;
+        border-radius: 5%;
+        box-shadow: 0 4px 8px 0 rgba(214, 221, 219, 0.562), 0 8px 16px 0 rgba(244, 247, 246, 0.774);
+        color: #09D3AC;
+      }
+      .p {
+        width: 400px;
+        height: 240px;
+        display: flex;
+        // padding-top: 10px;
+        // padding-left: 10px;
+        justify-content: left;;
+        align-items: initial;
+        margin-bottom: 16px;
+        background: transparent;
+        border: 4px solid #09D3AC;
+        border-radius: 5%;
+        box-shadow: 0 4px 8px 0 rgba(214, 221, 219, 0.562), 0 8px 16px 0 rgba(244, 247, 246, 0.774);
+        color: #09D3AC;
+      }
+      .p :not(.video){
+        // padding-top: 10px;
+        padding-left: 10px;
+      }
+      .divForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form{
+        width: 400px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 6px solid #09D3AC;
+        border-radius: 10%;
+        animation: 5s buttonShow infinite;
+      }
+      .input{
+        width: 320px;
+        height: 40px;
+        margin: 10px;
+        background-color: transparent;
+        border: 4px solid #09d3ac;
+        border-radius: 5%;
+        color: #09D3AC;
+        cursor: pointer;
+        text-align: center;
+      }
+      .buttonForm{
+        width: 60px;
+        height: 40px;
+        margin-bottom: 5px;
+          background-color: transparent;
+          border: 4px solid #09D3AC;
+          border-radius: 5%;
+          color: #09D3AC;
+          cursor: pointer;
+          animation: 5s buttonShow infinite;
+      
+    }
+      @keyframes buttonShow{
+        0%{
+          border-color: wheat;
+          color: #09D3AC;
+        }
+        50%{
+          border-color: wheat;
+          color: #d30909;
+        }
+        100%{
+          border-color: wheat;
+          color: #09D3AC;
+        }
+      }
+      .video{
+        width: 400px;
+        height: 232px;
+        border-radius: 3%;
+        border: 4px solid #d30909;
+      }
+      .mediaContainer{
+        width: 400px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .escena{
+        margin-top: 100px;
+        justify-self: flex-end;
+        animation: 5s buttonShow infinite;
+        text-align: center;
+        cursor: pointer;
+      }
+      .navMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav{
+        width: 480px;
+        height: 200px;
+        margin-bottom: 100px;
+        background-color: transparent;
+        background: url('http://www.legendarywolfgames.com/wp-content/uploads/2019/06/DBS_Logo.png') 50% 50% no-repeat;
+        box-shadow: 0 4px 8px 0 rgba(214, 221, 219, 0.562), 0 8px 16px 0 rgba(244, 247, 246, 0.774);
+        border: 8px solid #09d3ac;
+        border-radius: 5%;
+        color: #09D3AC;
+      }
+      .navMenu :not(.nav){
+        cursor: pointer;
+      }
+      
+    
+     
+
+      

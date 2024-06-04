@@ -1,0 +1,19 @@
+html{
+    background-color: #032129;
+
+}
+.divCover{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 160px;
+    background: url(http://pre06.deviantart.net/a349/th/pre/i/2015/117/a/2/goku_super_saiyan_god_super_saiyan_dbxv_by_armorkingtv21-d8rc8fv.png) 0% 100% no-repeat;
+    background-size: auto;
+    max-width: auto;
+    height: 1000px;
+}
+.navRotation{
+    padding-top: 80px;
+    animation: 15s rotateAnimation infinite cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    cursor: pointer;
+}

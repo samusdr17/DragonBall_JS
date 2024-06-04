@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "name":"Son Goku: Ultra Instinto",
+            "imag":"https://preview.redd.it/ggxuy98al1j01.png?width=684&auto=webp&s=b2a57497e7892861062f3a9ec78447194fb74633",
+            "description":"Fase la cual solo esta al alcance de los dioses",
+            "media":"https://www.youtube.com/embed/eW9G-zPMi4Q?start=157"
+        },
+        {
+            "name": "Son Goku: Tercera Fase",
+            "imag": "https://img00.deviantart.net/3442/i/2014/105/a/2/ssj3_goku_by_furipa93-d7en17l.png",
+            "description": "Fase de enorme poder que consume gran cantidad de recursos",
+            "media":"https://www.youtube.com/embed/BOedcfL85qo?start=157"
+        },
+        {
+            "name": "Son Goku: Tecnica de Kaito",
+            "imag": "https://th.bing.com/th/id/OIP._fAEafBGjc9BUQJ-2dAe3wHaEo?w=252&h=180&c=7&o=5&dpr=1.25&pid=1.7",
+            "description": "Abusar de esta fase te puede costar la vida",
+            "media":"https://www.youtube.com/embed/Ht2m0yIDXFw"
+        }
+    ]
+}
